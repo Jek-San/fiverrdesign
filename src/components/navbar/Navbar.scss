@@ -4,8 +4,11 @@
   align-items: center;
   background-color: #013914;
   color: white;
+  position: sticky;
+  top: 0;
   &.active {
     background-color: white;
+    color: black;
   }
   .container {
     width: 70vw;
@@ -40,6 +43,11 @@
         }
       }
     }
+  }
+  hr {
+    width: 100vw;
+    height: 0;
+    border: 20 solid lightgray;
   }
 
   .menu {
